@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "2_Implementing_Dependency_Injection/src/main/java/com/library",
+        "3_Implementing_Logging_with_Spring_AOP/src/main/java/com/library"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
