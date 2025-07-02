@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <!-- JUnit 5 -->
+        
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -17,7 +17,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Mockito Core -->
+        
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
@@ -25,7 +25,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Mockito JUnit Jupiter Extension -->
+        
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-junit-jupiter</artifactId>
@@ -36,7 +36,7 @@
 
     <build>
         <plugins>
-            <!-- Maven Surefire Plugin for running tests -->
+            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>

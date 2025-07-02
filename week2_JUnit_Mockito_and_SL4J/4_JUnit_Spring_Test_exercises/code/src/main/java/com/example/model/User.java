@@ -2,17 +2,17 @@ package com.example.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table; // ✅ You need to import this
+import jakarta.persistence.Table; 
 
 @Entity
-@Table(name = "users") // ✅ Add this annotation to avoid conflict with SQL reserved word 'user'
+@Table(name = "users") 
 public class User {
 
     @Id
     private Long id;
     private String name;
 
-    // Getters and Setters
+    
     public Long getId() {
         return id;
     }

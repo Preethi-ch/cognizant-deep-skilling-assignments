@@ -1,6 +1,6 @@
 package com.example.service;
 
-import org.springframework.stereotype.Service; // ✅ THIS IS MISSING
+import org.springframework.stereotype.Service; 
 
 @Service
 public class CalculatorService {

@@ -15,14 +15,14 @@
     </properties>
 
     <dependencies>
-        <!-- SLF4J API -->
+        
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.30</version>
         </dependency>
 
-        <!-- Logback (SLF4J implementation) -->
+       
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
@@ -32,13 +32,13 @@
 
     <build>
         <plugins>
-            <!-- Plugin to run Java classes with Maven -->
+           
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.1.0</version>
                 <configuration>
-                    <!-- Default class to run, can be overridden via CLI -->
+                    
                     <mainClass>ParameterizedLogging</mainClass>
                 </configuration>
             </plugin>
