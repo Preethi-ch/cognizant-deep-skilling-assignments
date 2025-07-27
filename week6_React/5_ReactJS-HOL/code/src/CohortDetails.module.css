@@ -1,0 +1,37 @@
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 20px;
+  border: 1px solid #000; 
+  border-radius: 6px;
+  background-color: #fdfdfd;
+}
+
+
+.box {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #aaa;    
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+dt {
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+dd {
+  margin: 0 0 10px 0;
+}
